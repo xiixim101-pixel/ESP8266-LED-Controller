@@ -301,10 +301,7 @@ const char index_html[] PROGMEM = R"rawliteral(
 </html>
 )rawliteral";
 
-// Reszta kodu (handleRoot, handleSet, handleAnim, handleReset, handleSpeed, handleRange, handleStatus, setup, loop)
-// dokładnie taka sama jak w poprzedniej wersji – nie zmieniałem logiki
 
-// [Wklej tutaj wszystkie funkcje handlers i setup/loop z poprzedniego kodu]
 
 void handleRoot() { server.send_P(200, "text/html", index_html); }
 
